@@ -28,4 +28,4 @@ jobs:
         git config user.email "<>"
         git status
         git commit --allow-empty -m "Github Actions Bot"
-        git push origin HEAD:main
+        git push origin HEAD:main --force
