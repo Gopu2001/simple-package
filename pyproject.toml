@@ -11,6 +11,14 @@ authors = [
 description = "A simple package"
 readme = "README.md"
 requires-python = ">=3.7"
+dependencies = [
+    'numpy >= 1.12'
+]
+
+[project.optional-dependencies]
+tests = [
+  'pytest'
+]
 
 [project.urls]
 "Homepage" = "https://github.com/Gopu2001/simple-package"
