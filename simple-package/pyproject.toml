@@ -27,3 +27,6 @@ tests = [
 [tool.setuptools.dynamic]
 version = {attr = "functions.__VERSION__"}
 dependencies = { file = ['requirements.txt'] }
+
+[tool.distutils.bdist_wheel]
+universal = true
